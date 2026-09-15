@@ -502,8 +502,8 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
 
 /* ============ BUY NOTIFICATION POPUP ============ */
 .buy-pop{
-  position:fixed;z-index:95;
-  top:56px;left:14px;right:14px;margin:0 auto;max-width:340px;
+  position:fixed;z-index:101;
+  top:max(8px,env(safe-area-inset-top,0px));left:14px;right:14px;margin:0 auto;max-width:340px;
   display:flex;align-items:center;gap:12px;
   background:var(--paper);border:1px solid var(--line);border-radius:14px;
   padding:11px 36px 11px 11px;
@@ -532,7 +532,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
 }
 .buy-pop-close:hover{background:var(--cream-2);color:var(--ink)}
 @media(min-width:820px){
-  .buy-pop{top:90px;bottom:auto;right:24px;left:auto;margin:0;max-width:330px;transform:translateY(-16px)}
+  .buy-pop{top:auto;bottom:24px;right:24px;left:auto;margin:0;max-width:330px;transform:translateY(26px)}
   .buy-pop.show{transform:translateY(0)}
 }
 
