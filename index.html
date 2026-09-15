@@ -265,11 +265,11 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
 .sol-visual{position:relative}
 .sol-visual .frame{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:16px;box-shadow:var(--shadow-lg)}
 .sol-visual img{border-radius:12px}
-.transform-line{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:22px 0 26px}
-.tchip{display:inline-flex;align-items:center;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:100px;padding:8px 15px;font-weight:700;font-size:.9rem;box-shadow:var(--shadow)}
+.transform-line{display:flex;align-items:center;gap:6px;flex-wrap:nowrap;margin:22px 0 26px}
+.tchip{display:inline-flex;align-items:center;gap:8px;background:var(--paper);border:1px solid var(--line);border-radius:100px;padding:7px 11px;font-weight:700;font-size:clamp(.72rem,2.9vw,.9rem);white-space:nowrap;box-shadow:var(--shadow)}
 .tchip.from{color:var(--ink-faint)}
 .tchip.to{color:var(--pine);border-color:rgba(18,60,48,.3);background:rgba(18,60,48,.05)}
-.tarrow{color:var(--orange);font-size:1.4rem;font-weight:900}
+.tarrow{color:var(--orange);font-size:clamp(1rem,3.5vw,1.4rem);font-weight:900;flex:none}
 .sol-points{list-style:none;display:grid;gap:14px;margin-top:8px}
 .sol-points li{display:flex;gap:12px;align-items:flex-start;font-weight:600;color:var(--ink-soft)}
 .sol-points .ic{color:var(--excel);flex:none;margin-top:3px}
@@ -503,7 +503,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
 /* ============ BUY NOTIFICATION POPUP ============ */
 .buy-pop{
   position:fixed;z-index:95;
-  top:calc(env(safe-area-inset-top) + 70px);left:14px;right:14px;margin:0 auto;max-width:340px;
+  top:56px;left:14px;right:14px;margin:0 auto;max-width:340px;
   display:flex;align-items:center;gap:12px;
   background:var(--paper);border:1px solid var(--line);border-radius:14px;
   padding:11px 36px 11px 11px;
@@ -532,7 +532,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
 }
 .buy-pop-close:hover{background:var(--cream-2);color:var(--ink)}
 @media(min-width:820px){
-  .buy-pop{top:auto;bottom:24px;right:24px;left:auto;margin:0;max-width:330px;transform:translateY(26px)}
+  .buy-pop{top:90px;bottom:auto;right:24px;left:auto;margin:0;max-width:330px;transform:translateY(-16px)}
   .buy-pop.show{transform:translateY(0)}
 }
 
@@ -600,7 +600,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
       <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
       Bureautique&nbsp;<b>Pro</b>
     </a>
-    <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn header-cta">Je m'inscris <span class="arw" aria-hidden="true">→</span></a>
+    <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn header-cta">Je m'inscris <span class="arw" aria-hidden="true">→</span></a>
   </div>
 </header>
 
@@ -630,7 +630,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
     </div>
     <div class="hero-actions">
       <div class="hero-cta-row reveal d2">
-        <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn btn-lg">Je commence pour 3&nbsp;405&nbsp;FCFA <span class="arw" aria-hidden="true">→</span></a>
+        <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn btn-lg">Je commence pour 3&nbsp;405&nbsp;FCFA <span class="arw" aria-hidden="true">→</span></a>
       </div>
       <div class="hero-timer reveal d2" role="timer" aria-live="off" aria-label="Temps restant de l'offre de lancement">
         <span class="ht-lead"><svg class="ht-ic" width="13" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h12M6 21h12M7.5 3v3.2c0 1.6 4.5 3.6 4.5 5.3 0-1.7 4.5-3.7 4.5-5.3V3M7.5 21v-3.2c0-1.6 4.5-3.6 4.5-5.3 0 1.7 4.5 3.7 4.5 5.3V21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> Cette offre expire dans</span>
@@ -826,7 +826,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
       </div>
     </div>
     <div class="center" style="margin-top:34px">
-      <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn btn-lg">Je veux ce programme complet <span class="arw" aria-hidden="true">→</span></a>
+      <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn btn-lg">Je veux ce programme complet <span class="arw" aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -932,18 +932,18 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
     </div>
     <div class="screens-marquee reveal" aria-label="Captures d'écran des avis de nos apprenants">
       <div class="screens-track">
-        <figure><img src="https://i.ibb.co/LhHtvSvh/Temoignage-1.png" alt="Témoignage d'un apprenant de Bureautique Pro (1)" loading="lazy"></figure>
-        <figure><img src="https://i.ibb.co/kZPKHPn/Temoignage-2.png" alt="Témoignage d'un apprenant de Bureautique Pro (2)" loading="lazy"></figure>
-        <figure><img src="https://i.ibb.co/k2hw9J8n/Temoignage-3.png" alt="Témoignage d'un apprenant de Bureautique Pro (3)" loading="lazy"></figure>
-        <figure><img src="https://i.ibb.co/VYSpPb4X/Temoignage-4.png" alt="Témoignage d'un apprenant de Bureautique Pro (4)" loading="lazy"></figure>
-        <figure><img src="https://i.ibb.co/xKhQGCTv/Temoignage-5.png" alt="Témoignage d'un apprenant de Bureautique Pro (5)" loading="lazy"></figure>
-        <figure><img src="https://i.ibb.co/VfN5sZ2/Temoignage-6.png" alt="Témoignage d'un apprenant de Bureautique Pro (6)" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/LhHtvSvh/Temoignage-1.png" alt="" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/kZPKHPn/Temoignage-2.png" alt="" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/k2hw9J8n/Temoignage-3.png" alt="" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/VYSpPb4X/Temoignage-4.png" alt="" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/xKhQGCTv/Temoignage-5.png" alt="" loading="lazy"></figure>
-        <figure aria-hidden="true"><img src="https://i.ibb.co/VfN5sZ2/Temoignage-6.png" alt="" loading="lazy"></figure>
+        <figure><img src="https://i.ibb.co/LhHtvSvh/Temoignage-1.png" alt="Témoignage d'un apprenant de Bureautique Pro (1)" width="550" height="640" loading="eager"></figure>
+        <figure><img src="https://i.ibb.co/kZPKHPn/Temoignage-2.png" alt="Témoignage d'un apprenant de Bureautique Pro (2)" width="607" height="640" loading="eager"></figure>
+        <figure><img src="https://i.ibb.co/k2hw9J8n/Temoignage-3.png" alt="Témoignage d'un apprenant de Bureautique Pro (3)" width="555" height="640" loading="eager"></figure>
+        <figure><img src="https://i.ibb.co/VYSpPb4X/Temoignage-4.png" alt="Témoignage d'un apprenant de Bureautique Pro (4)" width="640" height="615" loading="eager"></figure>
+        <figure><img src="https://i.ibb.co/xKhQGCTv/Temoignage-5.png" alt="Témoignage d'un apprenant de Bureautique Pro (5)" width="612" height="640" loading="eager"></figure>
+        <figure><img src="https://i.ibb.co/VfN5sZ2/Temoignage-6.png" alt="Témoignage d'un apprenant de Bureautique Pro (6)" width="523" height="640" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/LhHtvSvh/Temoignage-1.png" alt="" width="550" height="640" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/kZPKHPn/Temoignage-2.png" alt="" width="607" height="640" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/k2hw9J8n/Temoignage-3.png" alt="" width="555" height="640" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/VYSpPb4X/Temoignage-4.png" alt="" width="640" height="615" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/xKhQGCTv/Temoignage-5.png" alt="" width="612" height="640" loading="eager"></figure>
+        <figure aria-hidden="true"><img src="https://i.ibb.co/VfN5sZ2/Temoignage-6.png" alt="" width="523" height="640" loading="eager"></figure>
       </div>
     </div>
   </div>
@@ -1002,7 +1002,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
           <span class="price-save">Tu économises 12&nbsp;495&nbsp;FCFA (-79%)</span>
         </div>
 
-        <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn btn-lg btn-block">Je rejoins Bureautique Pro <span class="arw" aria-hidden="true">→</span></a>
+        <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn btn-lg btn-block">Je rejoins Bureautique Pro <span class="arw" aria-hidden="true">→</span></a>
         <div class="pay-note">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3 4 6v5c0 5 3.5 8 8 10 4.5-2 8-5 8-10V6z" stroke="#1E7A46" stroke-width="1.8" stroke-linejoin="round"/></svg>
           Paiement 100% sécurisé
@@ -1042,7 +1042,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
       <div class="cd-unit"><div class="v" id="cd-m">00</div><div class="l">Minutes</div></div>
       <div class="cd-unit"><div class="v" id="cd-s">00</div><div class="l">Secondes</div></div>
     </div>
-    <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn btn-lg">Je profite du lancement <span class="arw" aria-hidden="true">→</span></a>
+    <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn btn-lg">Je profite du lancement <span class="arw" aria-hidden="true">→</span></a>
   </div>
 </section>
 
@@ -1097,7 +1097,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
       <span class="eyebrow">C'est le moment</span>
       <h2 id="final-title">Dans 31 jours, tu peux être la candidate qu'on retient.</h2>
       <p>Word, Excel et PowerPoint maîtrisés. Un CV impeccable. La confiance de réussir n'importe quel test de bureau. Tout commence par une décision — aujourd'hui.</p>
-      <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn btn-lg">Je commence pour 3&nbsp;405&nbsp;FCFA <span class="arw" aria-hidden="true">→</span></a>
+      <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn btn-lg">Je commence pour 3&nbsp;405&nbsp;FCFA <span class="arw" aria-hidden="true">→</span></a>
       <p class="cta-note" style="position:relative">Au lieu de 15&nbsp;900&nbsp;FCFA · Accès à vie · 3 bonus offerts</p>
       <div class="final-reassure">
         <div><svg class="ic" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Garantie 7 jours remboursé</div>
@@ -1157,7 +1157,7 @@ h1.hero-title .curve svg{position:absolute;left:-2%;bottom:-.28em;width:104%;hei
     <div class="pn">3&nbsp;405&nbsp;FCFA</div>
     <div class="po"><s>15&nbsp;900</s> · Accès à vie</div>
   </div>
-  <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" target="_blank" rel="noopener" class="btn">Je m'inscris <span class="arw" aria-hidden="true">→</span></a>
+  <a href="https://nwgetgqb.mychariow.com/prd_4xwtlwn3/checkout" class="btn">Je m'inscris <span class="arw" aria-hidden="true">→</span></a>
 </div>
 
 <script>
